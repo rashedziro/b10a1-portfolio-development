@@ -1,0 +1,110 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+.person-name{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+}
+.btn-1 {
+    text-decoration: none;
+    width: 180px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.btn-container {
+    width: 228px;
+    height: 58px;
+    /* left: 1046px; */
+    /* top: 38px; */
+    margin: 38px;
+    /* right: 166px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    
+}
+
+/* banner section style */
+.banner-section-box-1 {
+    width: 100%;
+    height: 652px;
+    border: 1px solid rgb(13, 19, 33);
+    background-image: url("/assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section-box-2 {
+    width: 998px;
+    height: 582px;
+    border: 1px solid rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.banner-image1 {
+    width: 240.28px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(13, 19, 33);
+}
+.banner-section-title{
+    width: 998px;    
+}
+
+/* font-size: 40px;
+    font-weight: 800;
+    line-height: 68px; */
+
+
+
+
+
+/* .btn-2 {
+    text-decoration: none;
+    width: 180px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    } */
